@@ -22,7 +22,7 @@ def send_mail_function():
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.ehlo()
         server.starttls()
-        server.login("memoled54@gmail.com", 'Rr_-12345678') 
+        server.login("memoled54@gmail.com", 'R_-12345678') 
         server.sendmail('memolee954@gmail.com', recipientmail, "Warning Fire accident has been reported") 
         print("mail sent sucesfully to {}".format(recipientmail)) 
         server.close() 
